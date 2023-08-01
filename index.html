@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;900&family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
+    <link href="./img/7133312.png" rel="icon">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div id="background" >
+        <div class="overlay h-100 w-100 overflow-auto">
+            <h1 class="text-center text-white fw-bold fs-3 ">ACCOUNT LOGIN.</h1>
+            <div class="d-flex justify-content-center align-items-center">
+                <div class="bg-white mt-4 rounded-3 shadow-lg d-flex flex-column justify-content-center align-items-center ">
+
+                    <div id="" class=" w-100 d-flex justify-content-center align-items-center mt-5 mb-3">
+                        <i class="fa-solid fa-envelope fs-2 me-3"></i>
+                        <input class="form-control w-75 border-5  " placeholder="Email" id="userEmail" type="email" />
+                    </div>
+
+                    <div class=" w-100 d-flex justify-content-center align-items-center mb-3">
+                        <i class="fa-solid fa-key fs-2 me-3"></i>
+                        <input class="form-control w-75 border-5 " placeholder="Password" id="userPass" type="password" />
+                    </div>
+
+                        <span id="logRequired" class="d-none  text-danger fs-5 fw-bolder mb-4 ">All inputs is required</span>
+                        <span id="logIncorrect" class="d-none  text-danger fs-5 fw-bolder mb-4 ">incorrect email or password</span>
+
+                        <a class="d-block btn fs-5 text-white rounded-5 mb-4" onclick="loginUser();">Login</a>
+
+                            <p class="fw-bolder ">Don’t have an account?
+                                <a href="./signup.html"  class=" text-decoration-none fw-bold text-info ">Sign Up</a>
+                            </p> 
+                </div>
+            </div>
+        </div>
+    </div>
+
+  
+   
+
+    
+    <script src="./js/index.js"></script>
+</body>
+</html>
